@@ -15,7 +15,7 @@
         If My.Computer.FileSystem.DirectoryExists(readValue) Then
             If My.Computer.FileSystem.FileExists(readValue & "/Steam.exe") Then
                 steampath = readValue
-                Console.WriteLine("Steam hat es gefunden =>")
+                Console.WriteLine("Steam wurdu gefunden =>")
                 Console.ForegroundColor = ConsoleColor.Red
                 Console.Write(readValue + "!")
             Else
