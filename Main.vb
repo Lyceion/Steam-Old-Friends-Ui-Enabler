@@ -32,7 +32,7 @@
         p = Process.GetProcessesByName("Steam")
         If p.Count > 0 Then
             Console.ForegroundColor = ConsoleColor.Red
-            Console.WriteLine("Steam ist arbeit. Wir werden jetzt für dich schließen ...")
+            Console.WriteLine("Steam wurde geöffnet. Wir werden für sie  den Program schließen")
             Try
                 Process.GetProcessesByName("Steam")(0).Kill()
             Catch ex As Exception
